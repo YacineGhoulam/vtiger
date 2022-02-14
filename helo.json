@@ -1,0 +1,73 @@
+{
+    "resource": "call",
+    "event": "call.ended",
+    "timestamp": 1644308437,
+    "token": "e8d5295b59def949806758d5fc3ccef4",
+    "data": {
+        "id": 749325366,
+        "direct_link": "https://api.aircall.io/v1/calls/749325366",
+        "direction": "outbound",
+        "status": "done",
+        "missed_call_reason": null,
+        "started_at": 1644308343,
+        "answered_at": 1644308346,
+        "ended_at": 1644308406,
+        "duration": 62,
+        "cost": "0.0",
+        "hangup_cause": null,
+        "voicemail": null,
+        "recording": "https://production-pdx-555773567328-web.s3.us-west-2.amazonaws.com/companies/169383/recordings/call-749325366-7bde538cbd609acdcea9863eeeafb517-liverecord.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYCZVPUFQPZPSSYHQ%2F20220208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220208T082037Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH079XbCGjvQSnZijU%2BDriK9Ak0ghk8eG4DkoPogIlsYAiEA5naqllSOsbxxRTBDD2PYot4GFKMr4zK7c2kcOgWcv%2BoqggQI6f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw1NTU3NzM1NjczMjgiDDRAFqtL2lrTyxQp2SrWA3nO3EHwxQBA06GvqGiwJsCbkZrCsc%2F4GuYgbMIYbhxE4eYE8deCXDUjI8%2Bv5baiyxwqGqhcTE6WrmYrVzBqUsu8Y9K0VotEo2M4xwLeKJFoFf8fLmRwMLc5RRm%2BUkzs2vP7xG0VrLUAqwqWulascfOawJFpWM%2FCtzvd%2BIeITVo%2F8OLimVM0GqtQ1pj1E91d3MiJN2z%2BCZ48YZmKAIuUgitKGYBACmo0dHQwPbUH0JMhn%2F9kNP3PvxpwlZ3Vc55Cxk9fa33av9qAdPkAquFNFGSGT120AhO%2BPMrIUsZiC2GhVOFRT1U75d1J2n7DlhfPeRCO4cemWWZuBh5eX0W89lhRUvfAPb83e4TKIarWqHCqokcjNdq%2FR3Ts6bgx0lH6nUFRTGtjHqZibVN5wolbRN80KTeyFN5f1oCR7TTUMH%2B0a2d0PYIKt0l1JoA%2FCFJk0GN4EvDG8qe6rnkTLNiMfJ7onUZ3hT%2By00igQMfp8cGAuTh%2F7SzQcybCdXYlXqklScE%2BevAHjWbBy0bLDqH0j9IBAe9VRt2Wci4CXzOzYl6FKvnOX0NUtMQaynLKTilCCFB6Agps5MNwGRwkLGk0wlYHOqXv2Nkw4xzgHWLb1PVm0PkXhVSrMJHKiJAGOqUB3cHYRBSOFuP6DOs2dgB1hATRyC%2FMfDq0BNhX551T6Fum7IETQj14dSC9mKKlPqEiFA%2F1VHKw4MjHc0w9Ku04t1BLwHIRpdSPacmoTL%2BD2I3QfVXzbCPCk5Xc2XszRetyzT65qtRSyltaWwN3o99AVFKzU%2FfwSMNZ%2FqrAIYt8jL%2FfsyaGUyfqkklTs8NsFM%2B1eDn9WYj%2FIuoxEEPIk9dB2zD5gUp4&X-Amz-Signature=6509aa53495cda14f25436d59f3f62db624a8499b70a29f8b97d9ef52536080e",
+        "asset": "https://assets.aircall.io/calls/749325366/recording",
+        "raw_digits": "+33 2 30 03 97 53",
+        "user": {
+            "id": 719274,
+            "direct_link": "https://api.aircall.io/v1/users/719274",
+            "name": "Nadir Belmokhtar",
+            "email": "nadir@digimium.fr",
+            "available": true,
+            "availability_status": "available",
+            "language": "en-US",
+            "wrap_up_time": 0
+        },
+        "number": {
+            "id": 241508,
+            "direct_link": "https://api.aircall.io/v1/numbers/241508",
+            "name": "Digimium SVI",
+            "digits": "+33 1 79 36 00 00",
+            "country": "FR",
+            "time_zone": "Europe/Paris",
+            "open": true,
+            "availability_status": "custom",
+            "is_ivr": false,
+            "live_recording_activated": true,
+            "messages": {
+                "welcome": "https://media-web.aircall.io/tracks/tts/languages/de/voices/Marlene/eb173eb99d8608c016271c16cf75b6b5086d3125.mp3",
+                "waiting": "https://media-web.aircall.io/companies/169383/numbers/241508/tracks/library/1610445872/Pre_Decroche_Tampon.mp3",
+                "ivr": "https://media-web.aircall.io/tts/languages/de/voices/Vicki/adf9b35dba93e711077b7923ae4aaa04344ae4ca.mp3",
+                "voicemail": "https://media-web.aircall.io/tracks/tts/languages/de/voices/Marlene/fe82be3b431df4a8268ac785305c921eaae82156.mp3",
+                "closed": "https://media-web.aircall.io/tracks/tts/languages/de/voices/Marlene/347c0c91783d8fcbaa28744ba57a61f785ba14f3.mp3",
+                "callback_later": "https://media-web.aircall.io/tts/languages/de/voices/Vicki/acd4ccdc2586dbbf862336daab64b2080fa43a5c.mp3"
+            }
+        },
+        "archived": false,
+        "teams": [],
+        "comments": [],
+        "tags": [
+            {
+                "id": 820586,
+                "name": "Ticket en cours",
+                "tagged_by": {
+                    "id": 719274,
+                    "direct_link": "https://api.aircall.io/v1/users/719274",
+                    "name": "Nadir Belmokhtar",
+                    "email": "nadir@digimium.fr",
+                    "available": true,
+                    "availability_status": "available",
+                    "language": "en-US",
+                    "wrap_up_time": 0
+                },
+                "tagged_at": 1644308408
+            }
+        ]
+    }
+}
